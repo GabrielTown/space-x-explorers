@@ -10,7 +10,7 @@
     } = data.theMission.mission
 </script>
 
- <pre>{JSON.stringify(data.theMission.mission, null, 2)}</pre> 
+ <!-- <pre>{JSON.stringify(data.theMission.mission, null, 2)}</pre>  -->
 
 <article>
     <h1>{name}</h1>
@@ -24,9 +24,9 @@
     <section>
         <h2>Links:</h2>
         <ul>
-            {#if link.articleLink}
+            {#if link.article}
                 <li>
-                    <a href={link.articleLink}>Article</a>
+                    <a href={link.article}>Article</a>
                 </li>
             {/if}
             {#if link.pressKit}
@@ -34,9 +34,9 @@
                     <a href={link.pressKit}>Press Kit</a>
                 </li>
             {/if}
-            {#if link.videoLink}
+            {#if link.video}
                 <li>
-                    <a href={link.videoLink}>Video Link</a>
+                    <a href={link.video}>Video</a>
                 </li>
             {/if}
             {#if link.wikipedia}
