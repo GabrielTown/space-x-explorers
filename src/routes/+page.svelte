@@ -7,7 +7,7 @@
 
 
 <svelte:head>
-    <title>About | SpaceX Explorers</title>
+    <title>SpaceX Explorers</title>
 </svelte:head>
 
 <h1>SpaceX Explorers</h1>
